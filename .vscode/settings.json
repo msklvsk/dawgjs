@@ -1,0 +1,8 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    "lib": true,
+    "typings": true,
+    "**/*.{js,d.ts}": true
+  }
+}

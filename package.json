@@ -1,0 +1,34 @@
+{
+  "name": "dawgjs",
+  "version": "0.1.2",
+  "description": "DAWG reader for node.js and the browser",
+  "files": [
+    "*.js",
+    "*.d.ts"
+  ],
+  "main": "index.node.js",
+  "typings": "index.node.d.ts",
+  "scripts": {
+    "build:watch": "typings install && /usr/bin/env node node_modules/typescript/bin/tsc -p src -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msklvsk/dawgjs.git"
+  },
+  "keywords": [
+    "dawg",
+    "dafsa",
+    "dawgdic",
+    "dictionary"
+  ],
+  "author": "Bohdan Moskalevskyi <msklvsk@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msklvsk/dawgjs/issues"
+  },
+  "homepage": "https://github.com/msklvsk/dawgjs#readme",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
